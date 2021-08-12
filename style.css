@@ -1,0 +1,47 @@
+/*
+Name: 
+Date: 
+*/
+
+.container{ /*DO NOT REMOVE OR EDIT*/
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "side1 section1 section1"
+    "section2 videoSection side2"
+    "footer footer footer";
+}
+
+.header{ /*DO NOT REMOVE*/
+    grid-area: header;
+}
+
+.main{ /*DO NOT REMOVE*/
+    grid-area: main;
+}
+
+.side1{ /*DO NOT REMOVE*/
+    grid-area: side1;
+}
+
+.side2{ /*DO NOT REMOVE*/
+    grid-area: side2;
+}
+
+.section1{ /*DO NOT REMOVE*/
+    grid-area: section1;
+}
+
+.section2{ /*DO NOT REMOVE*/
+    grid-area: section2;
+}
+
+.videoSection{ /*DO NOT REMOVE*/
+    grid-area: videoSection;
+}
+
+.footer{ /*DO NOT REMOVE*/
+    grid-area: footer;
+}
